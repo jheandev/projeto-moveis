@@ -1,0 +1,90 @@
+*{
+
+ 
+  
+}
+
+#container2{
+    position: absolute;
+    width: 1280px;
+    left: 300px;
+    top: 31px;
+
+
+}
+
+
+#pesquisa{
+    position: absolute;
+    width: 473px;
+    height: 35px;
+    left: 510px;
+    top: 10px;
+    border: 0;
+    color: #616161;
+   
+}
+
+
+#item1{
+   
+    color: #3A3A3A;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    padding-right:37px;
+    flex: nome;
+  
+   
+}
+
+#botao-nav{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left:480px;
+    top:65px;
+    font-size: 23px;
+    border: 0;
+    top:10px;
+    background-color:#ffffff;
+    
+ 
+}
+
+#botao-coracao{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1135px;
+    font-size: 25px;
+    top: 7px;
+    border: 0;
+    background-color:#ffffff;
+
+}
+
+#botao-carrinho{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1180px;
+    font-size: 28px;
+    top:5px;
+    border: 0;
+    background-color:#ffffff;
+
+
+}
+
+#foto-mulher{
+    position: absolute;
+    width:60px;
+    height:40px;
+    flex: nome;
+    left: 1220px;
+    top: 5px;
+    
+}
