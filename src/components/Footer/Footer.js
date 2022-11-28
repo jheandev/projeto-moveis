@@ -12,11 +12,11 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 
 import { SiMinutemailer } from "react-icons/si";
 
-import Button from "react-bootstrap/Button";
-import ButtonGroup from "react-bootstrap/ButtonGroup";
 import ButtonToolbar from "react-bootstrap/ButtonToolbar";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
+
+import imglogoinput from "../../assets/img/carbon_logo.svg";
 
 function Footer() {
   return (
@@ -74,7 +74,7 @@ function Footer() {
           <Form.Control id="input" type="text" placeholder="Enter your email" />
           <InputGroup.Text id="btnGroupAddon2">
             <button id="logo-botao">
-              <SiMinutemailer />
+              <img src={imglogoinput} alt="logoinput" />
             </button>
           </InputGroup.Text>
         </InputGroup>

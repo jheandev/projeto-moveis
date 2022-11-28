@@ -2,17 +2,17 @@ import React from "react";
 
 import { Row, Col } from "react-bootstrap";
 
-import Ellipse2 from "../../assets/img/Ellipse2.svg";
+import InputGroup from "react-bootstrap/InputGroup";
 
-import Button from "react-bootstrap/Button";
+import Ellipse2 from "../../assets/img/Ellipse2.svg";
+import coracao from "../../assets/img/Heart.svg";
+import carrinho from "../../assets/img/Cart.svg";
+import Search from "../../assets/img/Search.svg";
+
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-
-import { BiSearchAlt2 } from "react-icons/bi";
-import { BiHeart } from "react-icons/bi";
-import { BiCart } from "react-icons/bi";
 
 import "./style.css";
 
@@ -20,44 +20,42 @@ function NavbarLandi() {
   return (
     <Navbar id="container2" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#">Funiro.</Navbar.Brand>
+        <Navbar.Brand id="grid-funiro">Funiro.</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: "100px" }}
-            navbarScroll
-          >
-            <Nav.Link id="item1" href="#action1">
+          <Nav id="bg-a">
+            <Nav.Link id="item1-products" href="#action1">
               Products
             </Nav.Link>
-            <Nav.Link id="item1" href="#action2">
+            <Nav.Link id="item2-rooms" href="#action2">
               Rooms
             </Nav.Link>
 
-            <Nav.Link id="item1" href="#" disabled>
+            <Nav.Link id="item3-inspirations" href="#action3">
               Inspirations
             </Nav.Link>
           </Nav>
           <Form className="d-flex">
-            <button id="botao-nav" type="button">
-              <BiSearchAlt2 />
-            </button>
-
             <button id="botao-coracao" type="button">
-              <BiHeart />
+              <img src={coracao} alt="Ellipse2" />
             </button>
 
             <button id="botao-carrinho" type="button">
-              <BiCart />
+              <img src={carrinho} alt="Ellipse2" />
             </button>
-            <Form.Control
-              id="pesquisa"
-              type="search"
-              placeholder=" Search for minimalist chair"
-              className="me-2"
-              aria-label="Search"
-            />
+
+            <InputGroup id="pesquisa">
+              <InputGroup.Text id="btnGroupAddon1">
+                <img src={Search} alt="Ellipse2" />
+              </InputGroup.Text>
+              <Form.Control
+                id="inputnav"
+                type="text"
+                placeholder="Search for minimalist chair"
+                aria-label="Input group example"
+                aria-describedby="btnGroupAddon2"
+              />
+            </InputGroup>
           </Form>
         </Navbar.Collapse>
         <Row>

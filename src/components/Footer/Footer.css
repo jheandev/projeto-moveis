@@ -1,9 +1,11 @@
 .footer{
     position: absolute;
-    width: 1440px;
+    width: 80%;
     height:336px;
     left:-45px;
-    top:4230px;
+    top:4250px;
+
+
     
   }
 
@@ -49,7 +51,7 @@
     font-style:normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 32px;
+    line-height: 37px;
     color: #616161;
 
 
@@ -57,12 +59,11 @@
 
   #Stay{
     position: absolute;
-
     width: 180px;
     height: 149px;
     left: 790px;
     white-space: nowrap;
-    line-height: 30px;
+    line-height: 37px;
     color: #616161;
 
   }
@@ -71,7 +72,7 @@
     position: absolute;
     white-space: nowrap;
     width: 292px;
-    height: 45px;
+    height: 90px;
     left: 1000px;
     font-size: 13px;
   }
@@ -111,29 +112,35 @@
   }
 
   
-  
 
   #botao-stay{
     position: absolute;
-    width: 225px;
-    height: 20px;
     left: 1000px;
     top:50px;
  
 
   }
   #input{
-    border: 0;
+   
+    width: 265px;
+    height: 50px;
     background:#F4F5F7;
-    font-size: 12px;
+    font-size: 17px;
+    border: 0;
+ 
+ 
    
   }
 
   #btnGroupAddon2{
-    width: 40px;
-   height: 35px;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    width: 46px;
+    height: 50px;
     background-color: #E89F71;
     border-radius: 0;
+    max-width: 800px;
+
 
 
   }
@@ -146,12 +153,16 @@
 
 
   #logo-botao{
+  flex-wrap: wrap;
+  white-space: nowrap;
   height:15px;
   color: #ffffff;
   border: 0;
   background-color: #E89F71;
-  font-size: 20px;
-  margin-bottom: 15px;
+  font-size: 25px;
+  margin-bottom: 25px;
+  margin-left: -3px;
+  max-width: 800px;
 
 
   }
