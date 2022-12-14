@@ -1,4 +1,68 @@
-*{
+
+.geral_grid_landing{
+  margin-top:100px;
+  margin-left: 50px;
+}
+
+#titulo-high{
+display:flex;
+font-family: 'Gilroy';
+flex-wrap: wrap;
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 120%;
+
+}
+
+#sub-titulo-Ourfumiture{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Gilroy';
+   font-style: normal;
+   margin-top: 20px;
+   font-weight: 500;
+   font-size: 25px;
+   line-height: 150%;
+   color: #898989;
+
+
+}
+
+#botao-shop{
+  display: flex;
+  width: 374px;
+  height: 78px;
+  border-radius:0;
+  font-size: 20px;
+  line-height: 150%;
+  padding-left: 30%;
+  align-items: center;
+  margin-top: 25px;
+  background: #E89F71;
+  border-color:  #E89F71;;
+
+
+}
+
+#img-gallery{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1040px;
+  height: 553px;
+  margin-left: 20px;
+
+}
+
+#landing_grid{
+  margin-top: 80px;
+
+}
+
+
+
+
+/* *{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -69,7 +133,7 @@
     left:514px;
     top:207px;
   }
-
+ */
 
 
     

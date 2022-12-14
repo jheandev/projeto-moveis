@@ -10,8 +10,6 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 
 import { BsFillTelephoneFill } from "react-icons/bs";
 
-import { SiMinutemailer } from "react-icons/si";
-
 import ButtonToolbar from "react-bootstrap/ButtonToolbar";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
